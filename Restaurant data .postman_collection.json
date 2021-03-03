@@ -1,0 +1,66 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Restaurant data ",
+		"_postman_id": "b026d527-885e-6ac9-5c54-9b0bbb9c510f",
+		"description": "Restaurant data details in the near by locations based on the coordinates",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/78.5088512/17.350656/6",
+			"request": {
+				"url": "http://localhost:3000/78.5088512/17.350656/8",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Once we give the coordiantes of saidabad and a location radius of 6 km, corresponding restaurant samples stored in Mongodb atlas, which are indexed by Elastic Search are displayed"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/78.5088512/17.350656/8",
+			"request": {
+				"url": "http://localhost:3000/78.5088512/17.350656/8",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Once we give the coordiantes of saidabad and a location radius of 8 km, corresponding restaurant samples stored in Mongodb atlas, which are indexed by Elastic Search are displayed"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/78.5088512/17.350656/12",
+			"request": {
+				"url": "http://localhost:3000/78.5088512/17.350656/12",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Once we give the coordiantes of saidabad and a location radius of 12 km, corresponding restaurant samples stored in Mongodb atlas, which are indexed by Elastic Search are displayed"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/78.5088512/17.350656/15",
+			"request": {
+				"url": "http://localhost:3000/78.5088512/17.350656/15",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Once we give the coordiantes of saidabad and a location radius of 15 km, corresponding restaurant samples stored in Mongodb atlas, which are indexed by Elastic Search are displayed"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/insert",
+			"request": {
+				"url": "http://localhost:3000/insert",
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": "Once we want to include new restaurant details, we need to makesure that we have the details inside the body. Other wise, we get an error message"
+			},
+			"response": []
+		}
+	]
+}
